@@ -5,11 +5,15 @@
     text-decoration: none;
     color: #fff;
     font-family: 'Rubik', sans-serif;
+
 }
 a {
     color: inherit;
 }
 
+body {
+    background: #111111;
+}
 
 .container {
     max-width: 1296px;
@@ -18,8 +22,7 @@ a {
 
 .header {
     width: 100%;
-    background: #111111;
-    height: 984px;
+    height: 87px;
 }
 
 .header__inner {
@@ -83,6 +86,229 @@ a {
     right: -4px;
     text-align: center;
 }
+
+/*Main*/
+
+.main {
+    background: linear-gradient(291.03deg, #F25A00 20.4%, #F28000 34.38%, #F2C900 62.93%, #F2E600 76.17%);
+}
+
+
+
+.main__text {
+    padding-top: 430px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.main__help {
+    display: inline-block;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+
+.main__help-title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+.main__help-text {
+    padding-top: 16px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+
+}
+
+.main__photo {
+    position: relative;
+    padding-top: 55px;
+    z-index: 0;
+}
+.main__photo-title {
+    position: absolute;
+    padding-top: 47px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 152px;
+    z-index: 1;
+}
+
+.ginger-img {
+    position: absolute;
+    right: 0;
+    top: 265px;
+
+}
+
+.nootris-img {
+    position: absolute;
+    top: 55px;
+    right: 96px;
+}
+.lemon-img {
+    position: absolute;
+    right: 179px;
+    top: 435px;
+}
+
+.offer__title {
+    text-align: center;
+    padding-top: 110px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.offer__text {
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    color: #FCB500;
+}
+
+.offer__price {
+    padding-top: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.old__price {
+    position: relative;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ADADAD;
+    padding-right: 32px;
+    padding-top: 10px;
+}
+.old__price:after {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 2px;
+    background-color: #ADADAD;
+    left: -12px;
+    top: 32px;
+
+}
+.new__price {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.offer__details {
+    padding-top: 59px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
+.offer__details-ginger {
+    text-align: center;
+}
+
+.offer__details-ginger--text {
+    padding-top: 78px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.nootris-span,
+.ginger-span,
+.vorus-span{
+    color: #F2C900;
+}
+
+.offer__details-nootris {
+    text-align: center;
+}
+.offer__details-nootris--text {
+    padding-top: 45px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.offer__details-vorus {
+    text-align: center;
+}
+
+.offer__details-vorus--text {
+    padding-top: 78px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.offer__click {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 112px;
+}
+
+.offer__button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    width: 256px;
+    height: 56px;
+    background-color: #FCB500;
+    border-radius: 7px;
+   text-align: center;
+    padding-top: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
