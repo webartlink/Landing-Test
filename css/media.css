@@ -1,0 +1,78 @@
+@media (max-width: 1200px) {
+
+	.header__inner {
+		padding: 24px 30px;
+		column-gap: 10px;
+		align-items: center;
+	}
+
+	.nav-button {
+		display: block;
+		z-index: 9;
+		/* position: fixed;
+		top: 46px;
+		right: 30px; */
+		
+	}
+	.menu__list {
+		display: none;
+	}
+
+
+	.menu.open .menu__list {
+		position: fixed;
+		top: 0;
+		bottom: 50%;
+		left: 0;
+		right: 0;
+		background-color: #000;
+
+		z-index: 1;
+		padding: 46px 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		row-gap: 40px;
+
+		font-size: 34px;
+		transition: 0.8s ease-in-out;
+	}
+
+	.menu__item-link {
+		font-size: 34px;
+	}
+
+	
+	
+    .main__photo {
+		padding: 0 30px;
+		
+	}
+	.main__photo-title {
+		/* font-weight: 600; */
+		font-size: 100px;
+		line-height: 121px;
+	}
+
+	.main__text {
+		max-width: 400px;
+    	padding-left: 30px
+	}
+
+	.main__help-title {
+		padding-left: 30px;
+	}
+	.main__help-text {
+		padding-left: 30px;
+	}
+	.lemon-img {
+		position: absolute;
+		right: 100px;
+		top: 435px;
+  }
+
+  .offer__details {
+	padding: 59px 30px 64px;
+  }
+}
+

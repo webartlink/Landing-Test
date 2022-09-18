@@ -6,7 +6,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+	
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 <!--Header-->
@@ -17,12 +19,20 @@
 			<a href="" class="header__logo">
 				<img class="logo-img" src="images/logo.png" alt="logo">
 			</a>
-			<nav class="menu">
-				<a class="menu__item" href="#">FAQ</a>
-				<a class="menu__item" href="#">Оплата и доставка</a>
-				<a class="menu__item" href="#">Возврат</a>
-				<a class="menu__item" href="#">Исследования</a>
+			<nav id="menu" class="menu ">
+				<ul class="menu__list">
+					<li class="menu__list-item"><a class="menu__item-link" href="#">FAQ</a></li>
+					<li class="menu__list-item"><a class="menu__item-link" href="#">Оплата и доставка</a></li>
+					<li class="menu__list-item"><a class="menu__item-link" href="#">Возврат</a></li>
+					<li class="menu__list-item"><a class="menu__item-link" href="#">Исследования</a></li>
+				</ul>
+				
 			</nav>
+			
+			
+
+
+		<div class="header__info">
 			<div class="header__profile">
 				Личный кабинет
 			</div>
@@ -33,7 +43,13 @@
 				<img class="header__basket-img" src="images/basket.svg" alt="basket">
 				<span class="header__basket-counter">1</span>
 			</div>
+			<button id="nav-btn" class="nav-button">
+				<img id="nav-btn-img"  src="./images/nav-open.svg" alt="nav-button">
+			</button>
 		</div>
+		
+		</div>
+		
 	</div>
 </header>
 
@@ -121,6 +137,8 @@
 	</div>
 </section>
 
+
+<script src="script.js"></script>
 </body>
 </html>
 
